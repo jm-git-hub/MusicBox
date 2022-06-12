@@ -24,6 +24,8 @@ public class Music {
         final String rockThree = "song 11";
         final String rockFour = "song 12";
 
+        
+        
         Scanner scan = new Scanner(System.in);
 
         boolean isValid = true;
