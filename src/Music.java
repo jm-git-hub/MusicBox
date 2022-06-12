@@ -45,19 +45,19 @@ public class Music {
                 fistQuestion = scan.nextLine();
 
                 switch (fistQuestion) {
-                    case classic -> {
+                    case classic: {
                         System.out.println("song 1, song 2, song 3, song 4 \nWhich one do you want to listen?");
                         isValid = false;
                     }
-                    case pop -> {
+                    case pop :{
                         System.out.println("song 5, song 6, song 7, song 8 \nWhich one do you want to listen?");
                         isValid = false;
                     }
-                    case rock -> {
+                    case rock : {
                         System.out.println("song 9, song 10, song 11, song 12 \nWhich one do you want to listen?");
                         isValid = false;
                     }
-                    default -> System.out.println("The " + fistQuestion + " music category is not available\nAvailable music types are Classic, Pop, and Rock.\nPlease enter the music type");
+                    default : System.out.println("The " + fistQuestion + " music category is not available\nAvailable music types are Classic, Pop, and Rock.\nPlease enter the music type");
 
                 }
             }
@@ -70,79 +70,79 @@ public class Music {
 
             if (fistQuestion.contains(classic)) {
                 switch (secondQuestion) {
-                    case classicOne -> {
+                    case classicOne : {
                         choice = classicOne;
                         System.out.println("Please enter the 2$ for this music");
                         isValid = false;
                     }
-                    case classicTwo -> {
+                    case classicTwo : {
                         choice = classicTwo;
                         System.out.println("Please enter the 2$ for this music");
                         isValid = false;
                     }
-                    case classicThree -> {
+                    case classicThree : {
                         choice = classicThree;
                         System.out.println("Please enter the 2$ for this music");
                         isValid = false;
                     }
-                    case classicFour -> {
+                    case classicFour : {
                         choice = classicFour;
                         System.out.println("Please enter the 2$ for this music");
                         isValid = false;
                     }
-                    default -> {
+                    default : {
                         System.out.println(secondQuestion + " is not available. Try again:");
                     }
                 }
             } else if (fistQuestion.contains(pop)) {
                 switch (secondQuestion) {
-                    case popOne -> {
+                    case popOne : {
                         choice = popOne;
                         System.out.println("Please enter the 5$ for this music");
                         isValid = false;
                     }
-                    case popTwo -> {
+                    case popTwo : {
                         choice = popTwo;
                         System.out.println("Please enter the 5$ for this music");
                         isValid = false;
                     }
-                    case popThree -> {
+                    case popThree : {
                         choice = popThree;
                         System.out.println("Please enter the 5$ for this music");
                         isValid = false;
                     }
-                    case popFour -> {
+                    case popFour : {
                         choice = popFour;
                         System.out.println("Please enter the 5$ for this music");
                         isValid = false;
                     }
-                    default -> {
+                    default : {
                         System.out.println(secondQuestion + " is not available. Try again:");
                     }
                 }
             } else {
                 switch (secondQuestion) {
-                    case rockOne -> {
+                    case rockOne : {
                         choice = rockOne;
                         System.out.println("Please enter the 8$ for this music");
                         isValid = false;
                     }
-                    case rockTwo -> {
+                    case rockTwo : {
                         choice = rockTwo;
                         System.out.println("Please enter the 8$ for this music");
                         isValid = false;
                     }
-                    case rockThree -> {
+                    case rockThree : {
                         choice = rockThree;
                         System.out.println("Please enter the 8$ for this music");
                         isValid = false;
                     }
-                    case rockFour -> {
+                    case rockFour : {
                         choice = rockFour;
                         System.out.println("Please enter the 8$ for this music");
                         isValid = false;
                     }
-                    default -> {
+                    default : {
                         System.out.println(secondQuestion + " is not available. Try again:");
                     }
                 }
