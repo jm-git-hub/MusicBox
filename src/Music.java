@@ -117,6 +117,9 @@ public class Music {
                         isValid = false;
                     }
                     default : {
+                        System.out.println("" + " is not available. Try again:");
+                        System.out.println(secondQuestion + " is not available. Try again:");
+                        System.out.println(secondQuestion + " is not available. Try again:");
                     }
                 }
             } else {
