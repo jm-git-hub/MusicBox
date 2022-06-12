@@ -5,13 +5,6 @@ public class Music {
     public static void main(String[] args) {
 
         String choice = "";
-
-        final String classic = "classic";
-        final String classicOne = "song 1";
-        final String classicTwo = "song 2";
-        final String classicThree = "song 3";
-        final String classicFour = "song 4";
-
         final String pop = "pop";
         final String popOne = "song 5";
         final String popTwo = "song 6";
